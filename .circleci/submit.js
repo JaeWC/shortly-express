@@ -2,7 +2,7 @@
 
 const { exec } = require('child_process');
 const https = require('https');
-exec('npm run test-puppeteer | grep -E \"[0-9]+\\s(passing|failing)\"', (err, stdout1, stderr) => {
+exec('npm test | grep -E \"[0-9]+\\s(passing|failing)\"', (err, stdout1, stderr) => {
   if (err) {
     return;
   }
