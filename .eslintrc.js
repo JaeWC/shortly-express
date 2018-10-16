@@ -1,10 +1,8 @@
-/**
- * These rules enforce the Code States's Style Guide
- *
- * Visit this repo for more information:
- *   https://github.com/codestates/eslint-config-codestates
- */
-
 module.exports = {
-  extends: './node_modules/eslint-config-codestates/index.js'
-};
+    "extends": "standard",
+    "rules": {
+        "no-undef-init": 0,
+        "semi": [2, 'always'],
+        "no-path-concat": 0
+    }
+  };
