@@ -1,9 +1,9 @@
-
 <script id='layout' type='text/x-handlebars-template'>
   <div class='navigation'>
   <ul>
     <li><a href='#' class='index'>All Links</a></li>
     <li><a href='#' class='create'>Shorten</a></li>
+    <a href='logout' class='logout'>Logout</a>
   </ul>
   </div>
   <div id='container'></div>
@@ -30,7 +30,7 @@
 
 <script>
   window.Templates = {};
-  $('[type="text/x-handlebars-template"]').each(function(index, div){
+  $('[type="text/x-handlebars-template"]').each(function (index, div) {
     Templates[div.id] = Handlebars.compile(div.innerHTML);
   });
 </script>

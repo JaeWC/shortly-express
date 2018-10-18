@@ -28,10 +28,11 @@
     "ejs": "2.6.1",
     "express": "4.16.4",
     "express-partials": "0.3.0",
-    "express-session": "1.15.6",
+    "express-session": "^1.15.6",
     "knex": "0.15.2",
+    "nodemon": "^1.18.4",
     "request": "2.88.0",
-    "sqlite3": "4.0.2"
+    "sqlite3": "^4.0.2"
   },
   "devDependencies": {
     "babel-cli": "^6.7.5",
